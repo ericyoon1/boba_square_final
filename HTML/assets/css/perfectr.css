@@ -6,13 +6,27 @@ LAYOUT STYLES
   /*width: 300px;*/
 /*}*/
 
-.contact {
-  font-size: 12px;
+.map h3 {
+  text-align: center;
+  margin: 10% 0 0 0;
+
 }
 
-.youtube {
-  margin: 17% 5%;
+.map img {
+  height: 100%;
+  width: 100%;
+  margin: 2% 0;
+}
+
+.info img {
+  border: 1px solid rgb(171,35,40);
   display: flex;
+  padding: 15%;
+  margin: 15% 3%;
+}
+
+.contact {
+  font-size: 12px;
 }
 
 .carousel-inner img {
@@ -137,8 +151,8 @@ body{
   padding-top:200px;
 }
 
-.pt-240{
-  padding-top:240px;
+.pt-250{
+  padding-top:250px;
 }
 
 .pt-280{
@@ -153,8 +167,8 @@ body{
   padding-bottom:40px;
 }
 
-.pb-80{
-  padding-bottom:80px;
+.pb-75{
+  padding-bottom:75px;
 }
 
 .pb-120{
@@ -169,8 +183,8 @@ body{
   padding-bottom:200px;
 }
 
-.pb-240{
-  padding-bottom:240px;
+.pb-250{
+  padding-bottom:250px;
 }
 
 .pb-280{
@@ -178,19 +192,32 @@ body{
 }
 
 @media (max-width:767px){
+  .info img {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+  .youtube {
+      width: 348px;
+      height: 250px;
+  }
+
 
   .pt-160,
   .pt-200,
-  .pt-240,
+  .pt-250,
   .pt-280{
-    padding-top:120px;
+    padding-top:100px;
   }
 
+  .pb-75,
   .pb-160,
   .pb-200,
   .pb-240,
   .pb-280{
-    padding-bottom:120px;
+    padding-bottom:10px;
   }
 
 }
