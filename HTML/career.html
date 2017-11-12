@@ -1,166 +1,175 @@
 <!DOCTYPE html>
 <html lang="en-US" class="no-js">
-<head>
+    <head>
+        <!-- ==============================================Title and Meta Tags=============================================== -->
+        <meta charset="utf-8">
+        <title>Boba Square</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <!-- ==============================================
-    Title and Meta Tags
-    =============================================== -->
-    <meta charset="utf-8">
-    <title>Boba Square</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- ==============================================CSS=============================================== -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/font-awesome.css">
+        <link rel="stylesheet" href="assets/css/twentytwenty.css">
+        <link rel="stylesheet" href="assets/css/perfectr.css">
 
-    <!-- ==============================================
+        <!-- ==============================================Fonts=============================================== -->
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
 
-    CSS
-    =============================================== -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/font-awesome.css">
-    <link rel="stylesheet" href="assets/css/twentytwenty.css">
-    <link rel="stylesheet" href="assets/css/perfectr.css">
+        <script type="text/javascript" src="assets/js/libs/modernizr.min.js"></script>
+    </head>
 
-    <!-- ==============================================
-    Fonts
-    =============================================== -->
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+    <body data-spy="scroll" data-target="#site-nav" data-offset="300">
 
-    <!-- ==============================================
-    JS
-    =============================================== -->
-
-    <!--[if lt IE 9]>
-    <script src="assets/js/libs/respond.min.js"></script>
-    <![endif]-->
-
-    <script type="text/javascript" src="assets/js/libs/modernizr.min.js"></script>
-
-</head>
-
-<body data-spy="scroll" data-target="#site-nav" data-offset="300">
-
-<div class="main-nav navbar navbar-fixed-top navbar-transparent">
-    <div class="navbar-header">
-
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#site-nav">
-            <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-        </button>
-
-        <!-- ======= LOGO ========-->
-        <a class="navbar-brand scrollto" href="#home">
-
-            <img class="site-logo transparent-logo" src="assets/bobasquare_images/logo_1.png" alt="logo" />
-            <img class="site-logo" src="assets/bobasquare_images/logo_1.png" alt="logo" />
-        </a>
-
-    </div>
-
-    <div id="site-nav" class="navbar-collapse collapse">
-        <ul class="nav navbar-nav navbar-right">
-            <li class="sr-only">
-                <a href="#">Home</a>
-            </li>
-            <!--<li>-->
-                <!--<a href="#about" class="scrollto">About Me</a>-->
-            <!--</li>-->
-            <li>
-                <a href="index.html">Home</a>
-            </li>
-            <li>
-                <a href="menu.html">Menu</a>
-            </li>
-            <li>
-                <a href="career.html">Career</a>
-            </li>
-            <li>
-                <a href="chainstore.html">Chain Store Opportunity</a>
-            </li>
-        </ul>
-    </div>
-
-</div>
-
-<div class = "career_container">
-    <form>
-        <div id="basicinformation">
-            <h3>Basic Information</h3>
-            <div class="form-group">
-                <label>Name</label>
-                <div class="row">
-                    <div class="col-xs-6">
-                        <input type="text" class="form-control" id="firstName" placeholder="First Name">
-                    </div>
-                    <div class="col-xs-6">
-                        <input type="text" class="form-control" id="lastName" placeholder="Last Name">
-                    </div>
-                </div>
+        <!-- ==============================================MAIN NAVIGATION=============================================== -->
+        <div class="main-nav navbar navbar-fixed-top navbar-transparent">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#site-nav">
+                    <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                </button>
+                <!-- ======= LOGO ========-->
+                <a class="navbar-brand scrollto" href="#home">
+                    <img class="site-logo transparent-logo" src="assets/bobasquare_images/logo_1.png" alt="logo" />
+                    <img class="site-logo" src="assets/bobasquare_images/logo_1.png" alt="logo" />
+                </a>
             </div>
-            <div class="form-group">
-                <label>Email address</label>
-                <input type="email" class="form-control" id="email" placeholder="Email">
-            </div>
-            <div class="form-group">
-                <label>Phone</label>
-                <input type="text" class="form-control" id="phone" placeholder="Phone Number">
-            </div>
-            <div class="form-group">
-                <label>Date Of Birth</label>
-                <div class="row">
-                    <div class="col-xs-4">
-                        <input type="text" class="form-control" id="month" placeholder="MM">
-                    </div>
-                    <div class="col-xs-4">
-                        <input type="text" class="form-control" id="day" placeholder="DD">
-                    </div>
-                    <div class="col-xs-4">
-                        <input type="text" class="form-control" id="year" placeholder="YYYY">
-                    </div>
-                </div>
-            </div>
-            <div class="form-group">
-                <label>Address</label>
-                <input type="text" class="form-control" id="address1" placeholder="Street Address">
-                <br>
-                <input type="text" class="form-control" id="address2" placeholder="Address Line 2">
-                <br>
-                <div class="row">
-                    <div class="col-xs-4">
-                        <input type="text" class="form-control" id="city" placeholder="City">
-                    </div>
-                    <div class="col-xs-4">
-                        <input type="text" class="form-control" id="state" placeholder="State">
-                    </div>
-                    <div class="col-xs-4">
-                        <input type="text" class="form-control" id="zip" placeholder="Zip">
-                    </div>
-                </div>
+
+            <div id="site-nav" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="sr-only">
+                        <a href="#">Home</a>
+                    </li>
+                    <!--<li>-->
+                        <!--<a href="#about" class="scrollto">About Me</a>-->
+                    <!--</li>-->
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="menu.html">Menu</a>
+                    </li>
+                    <li>
+                        <a href="career.html">Career</a>
+                    </li>
+                    <li>
+                        <a href="chainstore.html">Chain Store Opportunity</a>
+                    </li>
+                </ul>
             </div>
         </div>
 
-        <div id="availability">
-            <h3>Availability</h3>
-            <div class="form-group">
-                <div class="row">
-                    <div class="col-xs-8">
-                        <label>Total hours available per week</label>
-                        <input type="text" class="form-control" id="hoursavailable" placeholder="Hours">
+        <div class = "career_container">
+            <form>
+                <div id="basicinformation">
+                    <h3>Basic Information</h3>
+                    <div class="form-group">
+                        <label>Name</label>
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <input type="text" class="form-control" id="firstName" placeholder="First Name">
+                            </div>
+                            <div class="col-xs-6">
+                                <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-xs-4">
-                        <label>Are you legally able to be employed in the US?</label>
-                        <select class="form-control">
-                            <option selected disabled>Select...</option>
-                            <option>Yes</option>
-                            <option> No</option>
-                        </select>
+                    <div class="form-group">
+                        <label>Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <label>Phone</label>
+                        <input type="text" class="form-control" id="phone" placeholder="Phone Number">
+                    </div>
+                    <div class="form-group">
+                        <label>Date Of Birth</label>
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <input type="text" class="form-control" id="month" placeholder="MM">
+                            </div>
+                            <div class="col-xs-4">
+                                <input type="text" class="form-control" id="day" placeholder="DD">
+                            </div>
+                            <div class="col-xs-4">
+                                <input type="text" class="form-control" id="year" placeholder="YYYY">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Address</label>
+                        <input type="text" class="form-control" id="address1" placeholder="Street Address">
+                        <br>
+                        <input type="text" class="form-control" id="address2" placeholder="Address Line 2">
+                        <br>
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <input type="text" class="form-control" id="city" placeholder="City">
+                            </div>
+                            <div class="col-xs-4">
+                                <input type="text" class="form-control" id="state" placeholder="State">
+                            </div>
+                            <div class="col-xs-4">
+                                <input type="text" class="form-control" id="zip" placeholder="Zip">
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
+
+                <div id="availability">
+                    <h3>Availability</h3>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-xs-8">
+                                <label>Total hours available per week</label>
+                                <select class="form-control">
+                                    <option selected disabled>Select...</option>
+                                    <option>Less than 10</option>
+                                    <option>10-15</option>
+                                    <option>16-20</option>
+                                    <option>21-25</option>
+                                    <option>26-30</option>
+                                    <option>31-35</option>
+                                    <option>36-40</option>
+                                    <option>Greater than 40</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="eligibility">
+                        <h3>Eligibility</h3>
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-xs-8">
+                                    <label>Are you legally able to be employed in the US?</label>
+                                    <select class="form-control">
+                                        <option selected disabled>Select...</option>
+                                        <option>Yes</option>
+                                        <option> No</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+            </form>
+            <br>
         </div>
 
-        <button type="submit" class="btn btn-primary btn-lg">Submit</button>
-    </form>
-    <br>
-</div>
-
-</body>
-
+        <!-- ==============================================SCRIPTS=============================================== -->	
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="assets/js/libs/jquery-1.9.1.min.js">\x3C/script>')</script>
+		<script src="assets/js/libs/bootstrap.min.js"></script>
+		<script src="assets/js/libs/jquery.easing.1.3.min.js"></script>
+		<script src="assets/js/jquery.event.move.js"></script>
+		<script src="assets/js/jquery.twentytwenty.js"></script>
+		<script src="assets/js/jquery.flexslider-min.js"></script>
+		<script src="assets/js/jquery.countTo.js"></script>
+		<script src="assets/js/isotope.pkgd.min.js"></script>
+		<script src="assets/js/jquery.stellar.min.js"></script>
+		<script src="assets/js/jquery.nicescroll.min.js"></script>
+		<script src="assets/js/jquery.waypoints.min.js"></script>
+		<script src="assets/js/scripts.js"></script>
+    </body>
 </html>
