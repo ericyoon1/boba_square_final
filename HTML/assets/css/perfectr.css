@@ -2846,6 +2846,14 @@ header .slideshow {
 }
 
 /*---------------------------Isotope Grid-----------------------------*/
+.drinkHeader, .locationHeader {
+  text-align: center;
+  padding: 5% 0 0 0;
+  margin: 0;
+  color: rgb(171,35,40);
+  text-decoration: underline;
+}
+
 .filter-buttons ul{
   margin: 0;
 }
